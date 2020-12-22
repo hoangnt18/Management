@@ -1,0 +1,79 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+.SignIn{
+    height: 100hv;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: inset  0 0 0 1000px rgba(0, 0, 0, 0.2); */
+    object-fit: contain;
+   
+}
+
+input{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    margin: 20px;
+
+}
+
+.SignIn_icon{
+    background-color: transparent !important;
+}
+
+/* Button{
+    width: 90%;
+    align-items: center;
+} */
+
+.SignIn_container #getStarted{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    background-color: transparent;
+    color: white;
+    border: 4px solid rgba(255, 255, 255, 0.295);
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 800;
+
+    transition: all linear 0.5s;
+}
+
+.SignIn_container #getStarted:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.SignIn_ModalBody Button{
+    width: 200px !important;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+    .SignIn_container #getStarted{
+        position: absolute;
+        top: 45%;
+        left: 40%;
+    
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    .SignIn_container #getStarted{
+        position: absolute;
+        top: 50%;
+        left: 25%;
+    
+    }
+}
